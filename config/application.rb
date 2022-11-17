@@ -21,8 +21,9 @@ Bundler.require(*Rails.groups)
 module MaglevStarters
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.autoloader = :zeitwerk
     config.load_defaults 7.0
-
+    config.api_only = false
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
