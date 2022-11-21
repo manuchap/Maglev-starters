@@ -67,6 +67,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-gem "maglevcms", "~> 1.1.3"
+gem "maglevcms", "~> 1.1.5"
 gem "maglevcms-hyperui-kit", "~> 1.1.0"
 gem "image_processing", "~> 1.2"
